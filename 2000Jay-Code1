@@ -1,0 +1,189 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2000 - Jay!",
+            "summary": "<p> Four Years have passed since Rockefeller’s landslide victory in 1996. The United States has undergone several changes from Rockefeller’s “Appalachian Way” social programs to the expansion of NATO abroad. In the election of 2000, voters must decide whether now is the time to change course and brave this new millennium. <p> \n\n<p> President Rockefeller must show the American People that his Appalachian Way has been working for Americans and that he is capable enough for a second term as President.<p> \n\n<p> John Kasich is the candidate between the Quayle blunder in 1996 and the future of Conservatism in the United States. His task is to keep the Party united and, if possible, take the White House. <p> \n",
+            "image_url": "https://cdn.discordapp.com/attachments/1319732819475304532/1320265832089129020/washington-dc-1990s-17.jpg?ex=6768f8df&is=6767a75f&hm=bb52be67efed68405b24f35a04284fc006a4d004bb2feefc523def67df3db889&",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "123",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2000 - Jay!"
+    }
+]
+
+campaignTrail_temp.credits = "HistoryMan (lead writer), Answerisme (lead coder), Script1948 (banner), Literally Nelson Rockefeller (candidate images)"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "Jay",
+            "last_name": "Rockefeller",
+            "election": 20,
+            "party": "Democratic",
+            "state": "West Virginia",
+            "priority": 1,
+            "description": "<p>President Rockefeller has seen a busy couple of years since he entered the Executive Mansion. Through a diligent work ethic, a vigorous schedule, and plenty of late nights in the Oval, the President has made himself an example of what a modern American President should strive to be following him. <p>\n\n<p> Of course, his job is not without its disadvantages as the Economy, petty politicking, and the transformation of the American Political Scene of his own Democratic Party begin to shape into the Presidential Election. With the President’s approval rating at 58% among many pollsters, there is a smooth way to Re-Election if he can find it.\n</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://cdn.discordapp.com/attachments/1301799739380994058/1315890743415672863/Untitled292_20241209225956.png?ex=6768e041&is=67678ec1&hm=a9453b57d576c6f4a3dc2674594f4b72dfb5f57726453618ca064a62d8528096&",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "Albert",
+            "last_name": "Gore Jr.",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Tennessee",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/attachments/1301799739380994058/1315890604684611676/Untitled292_20241209225922.png?ex=6768e020&is=67678ea0&hm=ab7841aec16c0f0e07d6971f0f985f02856d345567bbd18ba09a6a2c670f3b5b&",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Vice President Al Gore has been President Rockefeller's trusted aide, advisor, and, most importantly, personal friend throughout these four years. While not as well respected as the President, Gore has been able to make many allies among Mainstream Democrats and keep the Balance in the Democratic Party. </p>\n\n</p> Suppose the President keeps Gore on board for another four years. In that case, he will be able to bring in many of the things he was able to in 1996 but now with the damper of Experience in the White House, the simple, Tennessee image that he once had has evaporated into the History Books. Either way, picking him would be a solid option all around.\n</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1003,
+        "fields": {
+            "first_name": "Richard A.",
+            "last_name": "Gephardt",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Missouri",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/attachments/1301799739380994058/1315890605011763231/Untitled292_20241209225909.png?ex=6768e020&is=67678ea0&hm=062ad53adbabf8da41ddb6c69fe152e7bf752ebc525db482f272d1fd15ca7ab8&",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>It’s an evening in Washington D.C, President Rockefeller has just come home from trying to navigate a healthcare bill through the House of Representatives when he stumbles across a file on his desk labeled “Potential Vice Presidential Options for 2000”. He flips through it for a while until he stumbles across Speaker Gephardt. Gephardt had admittedly helped the Party prevail in the 1998 Midterms with slimmer ranks, but he was experienced.\n\n</p> He would be able to help the Democrats rally both Loyal Democrats and Liberals who may or may not be dissatisfied with the President’s more Moderate Demeanor, but that was all just in his head. He closes the file and turns out the light, considering Gephardt still a worthy option.\n</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109261,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 1002
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#450693",
+    "windowColor": "#6d0808",
+    "containerColor": "#d8b874",
+    "innerWindowColor": "#d96b63",
+    "bannerImageUrl": "https://cdn.discordapp.com/attachments/1311807111851937844/1312158702534393927/image.png?ex=67687b85&is=67672a05&hm=370009f98888eab6a727286b383e56c9794449d65fe0b309ba93dad04f7672d6&",
+    "backgroundImageUrl": "https://cdn.discordapp.com/attachments/1319732819475304532/1320265831724351519/3199331336_64f9af5fd5_o.jpg?ex=6768f8df&is=6767a75f&hm=7453afc5a5f127f5f9dbbc3e382770a42bc27d5acbc7d5628de92b85eee2a248&",
+    "endingTextColor": "#000000",
+    "customQuote": "\"Democracy is interactive... Its a constant job of information, education, explanation, listening, and interactive communication.\" - Dick Gephardt"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"Democracy is interactive... Its a constant job of information, education, explanation, listening, and interactive communication." - Dick Gephardt</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#450693";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#6d0808";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#d8b874";
+
+document.getElementById("header").src = "https://cdn.discordapp.com/attachments/1311807111851937844/1312158702534393927/image.png?ex=67687b85&is=67672a05&hm=370009f98888eab6a727286b383e56c9794449d65fe0b309ba93dad04f7672d6&";
+
+document.body.background = "https://cdn.discordapp.com/attachments/1319732819475304532/1320265831724351519/3199331336_64f9af5fd5_o.jpg?ex=6768f8df&is=6767a75f&hm=7453afc5a5f127f5f9dbbc3e382770a42bc27d5acbc7d5628de92b85eee2a248&";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#d96b63!important;}</style>";
+
+//#endcode
