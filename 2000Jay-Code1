@@ -463,9 +463,9 @@ campaignTrail_temp.temp_election_list = [
 
 jet_data = {
     "headerColor": "#450693",
-    "windowColor": "#8F4C80",
+    "windowColor": "#A86379",
     "containerColor": "#d8b874",
-    "innerWindowColor": "#d96b63",
+    "innerWindowColor": "#A86379",
     "bannerImageUrl": "https://i.imgur.com/LfwKrKq.png",
     "backgroundImageUrl": "https://i.imgur.com/8Cepmbr.png",
     "endingTextColor": "#000000",
@@ -481,7 +481,7 @@ corrr = '\n              <h2>JAY 2000</h2>\n            ';
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#450693";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#d9926c";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#A86379";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
@@ -493,6 +493,6 @@ document.getElementById("header").src = "https://i.imgur.com/LfwKrKq.png";
 
 document.body.background = "https://i.imgur.com/8Cepmbr.png";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#d96b63!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#A86379!important;}</style>";
 
 //#endcode
