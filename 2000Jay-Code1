@@ -463,7 +463,7 @@ campaignTrail_temp.temp_election_list = [
 
 jet_data = {
     "headerColor": "#450693",
-    "windowColor": "#d9926c",
+    "windowColor": "#8F4C80",
     "containerColor": "#d8b874",
     "innerWindowColor": "#d96b63",
     "bannerImageUrl": "https://i.imgur.com/LfwKrKq.png",
