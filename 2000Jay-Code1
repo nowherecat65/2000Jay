@@ -51,7 +51,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican",
             "state": "Ohio",
             "priority": 1,
-            "description": "<p>John Kasich is a representative from Ohio representing its 12th district. He is largely the first ''Dark Horse'' that the Republican Party has seen in 120 years, and very attractive to moderates in both Parties, including the President's base.</p><p>Kasich in this election has the goal of not necessarily expecting to win it but strengthening the Republican Party enough that they will be able to prevail in 2004. The chances of his victory are near slim but to survive, courting the President's base and sewing up divisions within the Party would be the most likely case for his victory.</p>",
+            "description": "<p>John Kasich is a representative from Ohio representing its 12th district. He is largely the first ''Dark Horse'' that the Republican Party has seen in 120 years, and very attractive to moderates in both parties, including the President's base.</p><p>Kasich in this election has the goal of not necessarily expecting to win it but strengthening the Republican Party enough that they will be able to prevail in 2004. The chances of his victory are near slim, but to survive, courting the President's base and sewing up divisions within the party would be the most likely case for his victory..</p>",
             "color_hex": "#EC090B",
             "secondary_color_hex": "#EC8E90",
             "is_active": 1,
