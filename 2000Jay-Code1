@@ -493,6 +493,21 @@ document.getElementById("header").src = "https://i.imgur.com/LfwKrKq.png";
 
 document.body.background = "https://i.imgur.com/8Cepmbr.png";
 
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #D8B874;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#8B3641!important;}</style>";
 
 //#endcode
