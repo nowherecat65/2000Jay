@@ -28,7 +28,7 @@ campaignTrail_temp.election_json = [
         "model": "campaign_trail.election",
         "pk": 20,
         "fields": {
-            "year": 2016,
+            "year": 2000,
             "display_year": "2000 - Jay!",
             "summary": "<p> Four Years have passed since Rockefeller’s landslide victory in 1996. The United States has undergone several changes from Rockefeller’s “Appalachian Way” social programs to the expansion of NATO abroad. In the election of 2000, voters must decide whether now is the time to change course and brave this new millennium. <p> \n\n<p> President Rockefeller must show the American People that his Appalachian Way has been working for Americans and that he is capable enough for a second term as President.<p> \n\n<p> John Kasich is the candidate between the Quayle blunder in 1996 and the future of Conservatism in the United States. His task is to keep the Party united and, if possible, take the White House. <p> \n",
             "image_url": "https://cdn.discordapp.com/attachments/1319732819475304532/1320265832089129020/washington-dc-1990s-17.jpg?ex=6768f8df&is=6767a75f&hm=bb52be67efed68405b24f35a04284fc006a4d004bb2feefc523def67df3db889&",
