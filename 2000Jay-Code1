@@ -74,7 +74,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Green",
             "state": "Connecticut",
             "priority": 3,
-            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
+            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After four years of Jay Rockefeller, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
             "color_hex": "#00C100",
             "secondary_color_hex": "#A1FFA1",
             "is_active": 1,
