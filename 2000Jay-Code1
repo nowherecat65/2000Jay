@@ -28,7 +28,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democrat",
             "state": "West Virginia",
             "priority": 2,
-            "description": "<p>President Rockefeller has seen a busy couple of years since he entered the Executive Mansion. Through a diligent work ethic, a vigorous schedule, and plenty of late nights in the Oval, the President has made himself an example of what a modern American President should strive to be following him.</p><p>Of course, his job is not without its disadvantages as the Economy, petty politicking, and the transformation of the American Political Scene of his own Democratic Party begin to take shape into the Election. With the President’s approval rating at 58% among many pollsters, there is a smooth way to Re-Election if he can find it.</p>",
+            "description": "<p>President Rockefeller has seen a busy couple of years since he entered the Executive Mansion. Through a diligent work ethic, a vigorous schedule, and plenty of late nights in the Oval, the President has made himself an example of what a modern American President should strive to follow him.</p><p>Of course, his job is not without its disadvantages, as the economy, petty politicking, and the transformation of the American Political Scene of his own Democratic Party begin to take shape into the Election. With the President’s approval rating at 58% among many pollsters, there is a smooth way to re-election if he can find it.</p>",
             "color_hex": "#2a09ae",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
@@ -220,7 +220,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Vice President Al Gore has been President Rockefeller's trusted aide, advisor, and, most importantly, personal friend throughout these four years. While not as well respected as the President, Gore has been able to make many allies among Mainstream Democrats and keep the Balance in the Democratic Party.</p><p> Suppose the President keeps Gore on board for another four years. In that case, he will be able to bring in many of the things he was able to in 1996 but now with the damper of Experience in the White House, the simple, Tennessee image that he once had has evaporated into the History Books. Either way, picking him would be a solid option all around. <p> ",
+            "description_as_running_mate": "<p>Vice President Al Gore has been President Rockefeller's trusted aide, advisor, and, most importantly, personal friend throughout these four years. While not as well respected as the President, Gore has been able to make many allies among Mainstream Democrats and keep the balance in the Democratic Party.</p><p> Suppose the President keeps Gore on board for another four years. In that case, he will be able to bring in many of the things he was able to in 1996, but now with the damper of Experience in the White House, the simple, Tennessee images that he once had has evaporated into the History Books. Either way, picking him would be a solid option all around. <p> ",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -243,7 +243,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>It’s an evening in Washington D.C, President Rockefeller has just come home from trying to navigate a healthcare bill through the House of Representatives when he stumbles across a file on his desk labeled “Potential Vice Presidential Options for 2000”. He flips through it for a while until he stumbles across Speaker Gephardt. Gephardt had admittedly helped the Party prevail in the 1998 Midterms with slimmer ranks, but he was experienced.</p></p>He would be able to help the Democrats rally both Loyal Democrats and Liberals who may or may not be dissatisfied with the President’s more Moderate Demeanor, but that was all just in his head. He closes the file and turns out the light, considering Gephardt still a worthy option. ",
+            "description_as_running_mate": "<p>It’s an evening in Washington D.C, President Rockefeller has just come home from trying to navigate a healthcare bill through the House of Representatives when he stumbles across a file on his desk labeled “Potential Vice Presidential Options for 2000”. He flips through it for a while until he stumbles across Speaker Gephardt. Gephardt had admittedly helped the Party prevail in the 1998 Midterms with slimmer ranks, but he was experienced.</p></p>He would be able to help the Democrats rally both loyal Democrats and Liberals who may or may not be dissatisfied with the President’s more Moderate Demeanor, but that was all just in his head. He closes the file and turns out the light, considering Gephardt still a worthy option.",
             "candidate_score": 0,
             "running_mate": true
         }
