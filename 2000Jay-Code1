@@ -499,7 +499,7 @@ style.id = 'dynamic-style';
 
 style.innerHTML = `
   .campaign_trail_start_emphasis {
-    background-color: #D8B874;
+    background-color: #8F404C;
   }
   a:-webkit-any-link {
     color: #000000;
