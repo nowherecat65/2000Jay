@@ -20,6 +20,29 @@ campaignTrail_temp.election_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Jay",
+            "last_name": "Rockefeller",
+            "election": 9,
+            "party": "Democrat",
+            "state": "West Virginia",
+            "priority": 2,
+            "description": "<p>President Rockefeller has seen a busy couple of years since he entered the Executive Mansion. Through a diligent work ethic, a vigorous schedule, and plenty of late nights in the Oval, the President has made himself an example of what a modern American President should strive to be following him.</p><p>Of course, his job is not without its disadvantages as the Economy, petty politicking, and the transformation of the American Political Scene of his own Democratic Party begin to take shape into the Election. With the President’s approval rating at 58% among many pollsters, there is a smooth way to Re-Election if he can find it.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/ZWzMRUR.jpeg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
         "pk": 77,
         "fields": {
             "first_name": "John",
@@ -36,29 +59,6 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
             "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
             "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
-            "description_as_running_mate": "''",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 78,
-        "fields": {
-            "first_name": "Jay",
-            "last_name": "Rockefeller",
-            "election": 9,
-            "party": "Democrat",
-            "state": "West Virginia",
-            "priority": 2,
-            "description": "<p>Al Gore enters the 2000 election as the Democratic candidate after eight years as Vice President under Bill Clinton.</p><p>Gore has a lot of options in his campaign. He can embrace the legacy of Clinton, for better or worse. Politically, he can run as a centrist, or move to the left and run as a more traditional liberal Democrat than Clinton did. The presence of the well-known Ralph Nader as a Green Party candidate complicates this decision. Gore is essentially campaigning on two fronts.</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 1,
-            "image_url": "https://i.imgur.com/ZWzMRUR.jpeg",
-            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
-            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
-            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
             "description_as_running_mate": "''",
             "candidate_score": 1,
             "running_mate": false
@@ -220,7 +220,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Joe Lieberman is a moderate Democrat and Orthodox Jew who has served as a Senator from Connecticut. He would be the first Jewish candidate or running mate from a major party. He was also a prominent critic of Bill Clinton's missteps during his time in the White House. Geographically, Lieberman could help with Gore's vote total in the critical state of Florida.</p>",
+            "description_as_running_mate": "<p>Vice President Al Gore has been President Rockefeller's trusted aide, advisor, and, most importantly, personal friend throughout these four years. While not as well respected as the President, Gore has been able to make many allies among Mainstream Democrats and keep the Balance in the Democratic Party.</p><p> Suppose the President keeps Gore on board for another four years. In that case, he will be able to bring in many of the things he was able to in 1996 but now with the damper of Experience in the White House, the simple, Tennessee image that he once had has evaporated into the History Books. Either way, picking him would be a solid option all around. <p> ",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -229,21 +229,21 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 86,
         "fields": {
-            "first_name": "Bob",
-            "last_name": "Graham",
+            "first_name": "Dick",
+            "last_name": "Gephardt",
             "election": 9,
             "party": "Democrat",
-            "state": "Florida",
+            "state": "Missouri",
             "priority": 10,
             "description": "''",
             "color_hex": "#0000FF",
             "secondary_color_hex": "#90C0FF",
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/bob-graham-2000.jpg",
+            "image_url": "https://i.imgur.com/3fdYWRS.jpeg",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Bob Graham is a Senator and former Governor from Florida. His popularity in that state could be crucial to a Democratic victory in 2000. He is fairly moderate and was one of Bill Clinton's top choices for running mate before Clinton went with Gore. His focus has been on the environment, education, and intelligence issues.</p>",
+            "description_as_running_mate": "<p>It’s an evening in Washington D.C, President Rockefeller has just come home from trying to navigate a healthcare bill through the House of Representatives when he stumbles across a file on his desk labeled “Potential Vice Presidential Options for 2000”. He flips through it for a while until he stumbles across Speaker Gephardt. Gephardt had admittedly helped the Party prevail in the 1998 Midterms with slimmer ranks, but he was experienced.</p></p>He would be able to help the Democrats rally both Loyal Democrats and Liberals who may or may not be dissatisfied with the President’s more Moderate Demeanor, but that was all just in his head. He closes the file and turns out the light, considering Gephardt still a worthy option. ",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -393,34 +393,10 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 54,
-        "fields": {
-            "candidate": 78,
-            "running_mate": 87
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 55,
-        "fields": {
-            "candidate": 78,
-            "running_mate": 88
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
         "pk": 50,
         "fields": {
             "candidate": 77,
             "running_mate": 83
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 51,
-        "fields": {
-            "candidate": 77,
-            "running_mate": 84
         }
     }
 ]
