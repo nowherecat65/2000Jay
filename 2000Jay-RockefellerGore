@@ -35756,6 +35756,14 @@ campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/ZWzMRUR.jpeg';
 
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/BFNs44S.jpeg';
 
+campaignTrail_temp.candidate_last_name = 'Rockefeller';
+
+campaignTrail_temp.candidate_first_name = 'Jay';
+
+campaignTrail_temp.running_mate_first_name = 'Al';
+
+campaignTrail_temp.running_mate_last_name = 'Gore';
+
 campaignTrail_temp.jet_data = [{}
 ]
 
