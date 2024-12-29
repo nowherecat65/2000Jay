@@ -35752,9 +35752,9 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
-campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/I4X9S30.jpeg';
+campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/ZWzMRUR.jpeg';
 
-campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/xBthGvM.jpeg';
+campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/BFNs44S.jpeg';
 
 campaignTrail_temp.jet_data = [{}
 ]
