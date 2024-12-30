@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 397,
         "fields": {
             "priority": 0,
-            "description": "Today you have announced the selection of Joe Lieberman as running mate. Can you speak more about him?",
+            "description": "[AUGUST OF 1999] Let’s go back a year and set the scene. Many members of the Democratic Party trust you, and with the majority we have in Congress, there’s a chance to pass one more major Act to define your theme for the re-election campaign. Al is thinking about something related to the environment, and your wife Sharon suggests something focused on education. But Speaker Dick Gephardt thinks something big on the Appalachian Way would inspire the party. So, what are we going to do?",
             "likelihood": 1
         }
     },
@@ -928,7 +928,15 @@ campaignTrail_temp.answers_json = [
         "pk": 3501,
         "fields": {
             "question": 397,
-            "description": "Joe Lieberman is a historic choice for Vice President, and a valued member of the Democratic Party."
+            "description": "Listen, Al has a point. I’m not too popular with many of these ''New'' Democrats as the pollsters would put it. But an Environmental Act could electrify them beyond belief. Let’s think big here, shall we? We can include funding for environmental cleanups, investments into nuclear power, and all the right elements. And by the way, I think Senate Majority Leader Daschle can help us secure the votes for this thing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 35021,
+        "fields": {
+            "question": 397,
+            "description": "The Appalachian Way was my passion project for the entirety of the 1996 campaign. We invested heavily in it, and in expanding the American welfare system throughout most of this term. If I were to stop right now, I'd look like a huge goddamn hypocrite, wouldn't I? Let's get in touch with Dick again and discuss something along the lines of Social Security... hell, if we want to go a bit further, let's talk Medicare."
         }
     },
     {
@@ -936,7 +944,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3502,
         "fields": {
             "question": 397,
-            "description": "Joe Lieberman is an independent thinker who has challenged people of all views. These are the people I want in my administration."
+            "description": "Now, as much as I respect my advisors and Congress, Sharon has to get her way once in a while, or I’ll be sleeping on the couch again. Senator Lieberman has suggested that we could bring a big education bill to the table, and some Republicans might be willing to bite, folks like Mr. McConnell or even Mr. Lugar, if the compromise is strong enough for them. It would make a nice show of bipartisanship, don’t you think?"
         }
     }
 ]
@@ -6356,7 +6364,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3502,
             "candidate": 78,
             "affected_candidate": 78,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.005
         }
     },
     {
@@ -6365,8 +6373,48 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 3502,
             "candidate": 78,
-            "affected_candidate": 79,
-            "global_multiplier": 0.025
+            "affected_candidate": 77,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1005,
+        "fields": {
+            "answer": 35021,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1006,
+        "fields": {
+            "answer": 35021,
+            "candidate": 78,
+            "affected_candidate": 77,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1005,
+        "fields": {
+            "answer": 3501,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1006,
+        "fields": {
+            "answer": 3501,
+            "candidate": 78,
+            "affected_candidate": 77,
+            "global_multiplier": -0.005
         }
     },
     {
@@ -9253,7 +9301,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 187,
             "candidate": 78,
             "affected_candidate": 78,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.003
         }
     },
     {
@@ -9264,7 +9312,29 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 189,
             "candidate": 78,
             "affected_candidate": 78,
-            "state_multiplier": 0.004
+            "state_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8850,
+        "fields": {
+            "answer": 35021,
+            "state": 187,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 8851,
+        "fields": {
+            "answer": 35021,
+            "state": 189,
+            "candidate": 78,
+            "affected_candidate": 78,
+            "state_multiplier": 0.003
         }
     },
     {
@@ -9275,7 +9345,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 187,
             "candidate": 78,
             "affected_candidate": 78,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.004
         }
     },
     {
@@ -9286,7 +9356,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 189,
             "candidate": 78,
             "affected_candidate": 78,
-            "state_multiplier": 0.004
+            "state_multiplier": 0.001
         }
     },
     {
@@ -34335,6 +34405,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 3321,
             "candidate": 77,
             "answer_feedback": "You're certainly getting attention in the news for this stance, but it is not a mainstream position in your party. Perhaps this will establish you as an independent thinker..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 719,
+        "fields": {
+            "answer": 3501,
+            "candidate": 77,
+            "answer_feedback": "Al is happy that you decided to go along with his plans but besides the fact that most of your base would rather join the Republicans than vote for this would be the main reason it won’t pass, but you can twist their arms with enough Elbow Grease and a little bit of blood."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 719,
+        "fields": {
+            "answer": 3502,
+            "candidate": 77,
+            "answer_feedback": "You get in touch with Senator McConnell a couple of hours after discussing this with Sharon and Secretary Askew. He says that the only way it’s going to pass is if you give the framework of it to the Republicans. So much for your ''bipartisan effort,'' but it’s still moving forward either way."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 719,
+        "fields": {
+            "answer": 35021,
+            "candidate": 77,
+            "answer_feedback": "This excites Dick and the Democrats in Congress. Many of them want you to pursue some limited but meaningful Social Security reform, while others on the Left believe that expanding Medicare would be the best move for the country. You sit alone in the Rose Garden, pondering. Just pondering..."
         }
     },
     {
