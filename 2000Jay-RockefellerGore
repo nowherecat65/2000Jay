@@ -3972,7 +3972,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 225,
             "issue": 31,
-            "state_issue_score": 0.496,
+            "state_issue_score": 0.596,
             "weight": 1
         }
     },
@@ -4366,7 +4366,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 78,
             "issue": 31,
-            "issue_score": 0.333
+            "issue_score": 0.5
         }
     },
     {
@@ -5371,7 +5371,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 78,
             "state": 225,
-            "state_multiplier": 0.9625
+            "state_multiplier": 0.9825
         }
     },
     {
