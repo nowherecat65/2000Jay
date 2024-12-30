@@ -1618,11 +1618,11 @@ campaignTrail_temp.issues_json = [
             "stance_desc_1": 0,
             "stance_2": "Conservative",
             "stance_desc_2": 0,
-            "stance_3": "Conservative",
+            "stance_3": "Pretty Conservative",
             "stance_desc_3": 0,
             "stance_4": "Moderate",
             "stance_desc_4": 0,
-            "stance_5": "Liberal",
+            "stance_5": "Pretty Liberal",
             "stance_desc_5": 0,
             "stance_6": "Liberal",
             "stance_desc_6": 0,
@@ -1641,11 +1641,11 @@ campaignTrail_temp.issues_json = [
             "stance_desc_1": 0,
             "stance_2": "Conservative",
             "stance_desc_2": 0,
-            "stance_3": "Conservative",
+            "stance_3": "Pretty Conservative",
             "stance_desc_3": 0,
             "stance_4": "Moderate",
             "stance_desc_4": 0,
-            "stance_5": "Liberal",
+            "stance_5": "Pretty Liberal",
             "stance_desc_5": 0,
             "stance_6": "Liberal",
             "stance_desc_6": 0,
@@ -1664,11 +1664,11 @@ campaignTrail_temp.issues_json = [
             "stance_desc_1": 0,
             "stance_2": "Conservative",
             "stance_desc_2": 0,
-            "stance_3": "Conservative",
+            "stance_3": "Pretty Conservative",
             "stance_desc_3": 0,
             "stance_4": "Moderate",
             "stance_desc_4": 0,
-            "stance_5": "Liberal",
+            "stance_5": "Pretty Liberal",
             "stance_desc_5": 0,
             "stance_6": "Liberal",
             "stance_desc_6": 0,
@@ -1687,11 +1687,11 @@ campaignTrail_temp.issues_json = [
             "stance_desc_1": 0,
             "stance_2": "Conservative",
             "stance_desc_2": 0,
-            "stance_3": "Conservative",
+            "stance_3": "Pretty Conservative",
             "stance_desc_3": 0,
             "stance_4": "Moderate",
             "stance_desc_4": 0,
-            "stance_5": "Liberal",
+            "stance_5": "Pretty Liberal",
             "stance_desc_5": 0,
             "stance_6": "Liberal",
             "stance_desc_6": 0,
@@ -1704,17 +1704,17 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 31,
         "fields": {
-            "name": "Bill Clinton",
+            "name": "Jay Rockefeller",
             "description": 0,
             "stance_1": "Very Unpopular",
             "stance_desc_1": 0,
             "stance_2": "Unpopular",
             "stance_desc_2": 0,
-            "stance_3": "Unpopular",
+            "stance_3": "Pretty Unpopular",
             "stance_desc_3": 0,
             "stance_4": "Neutral",
             "stance_desc_4": 0,
-            "stance_5": "Popular",
+            "stance_5": "Pretty Popular",
             "stance_desc_5": 0,
             "stance_6": "Popular",
             "stance_desc_6": 0,
@@ -4375,7 +4375,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 79,
             "issue": 27,
-            "issue_score": 0.75
+            "issue_score": -0.75
         }
     },
     {
@@ -4384,7 +4384,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 79,
             "issue": 28,
-            "issue_score": 0.75
+            "issue_score": -0.75
         }
     },
     {
@@ -4393,7 +4393,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 79,
             "issue": 29,
-            "issue_score": 0.75
+            "issue_score": -0.75
         }
     },
     {
@@ -4411,7 +4411,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 79,
             "issue": 31,
-            "issue_score": -0.1
+            "issue_score": -0.51
         }
     },
     {
